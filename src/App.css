@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Merriweather+Sans&family=Walter+Turncoat&display=swap");
+
+:root {
+  --primary_color: #4a919e;
+  --secondary_color: #6d0d43;
+  --primary_shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  --primary_font: "Walter Turncoat", cursive;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.green {
+  color: var(--primary_color);
+}
+
+.purple {
+  color: var(--secondary_color);
+}
