@@ -1,0 +1,80 @@
+/*////////////////////////////////////////////////
+//////////////     Presentation      ////////////
+//////////////////////////////////////////////*/
+
+.presentation {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4vh;
+}
+
+.presentation1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.presentation1 p {
+  width: 80%;
+}
+
+.presentation1 img {
+  width: 4%;
+}
+
+.presentation2 {
+  flex: 1;
+  display: flex;
+  gap: 8%;
+}
+
+.presentation2-spec {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.presentation2 img:first-child {
+  max-height: 55vh;
+}
+
+.presentation2-spec div {
+  background-color: var(--primary_color);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 10vh;
+  font-size: 0.9em;
+}
+
+.presentation2-spec h3 {
+  margin: 0;
+  background-color: var(--secondary_color);
+  padding: 2% 8%;
+  border-radius: 0 0 5px 5px;
+}
+
+.presentation2-spec p {
+  margin: 2% 0 0 0;
+}
+/*/ ///////////////////////////////////////////////
+////////////////      Logo           ///////////
+//////////////////////////////////////////////*/
+
+/*////////////////////////////////////////////////
+////////////////      Logo           ///////////
+//////////////////////////////////////////////*/
+
+/*/ ///////////////////////////////////////////////
+////////////////      Logo           ///////////
+//////////////////////////////////////////////*/
+
+/*////////////////////////////////////////////////
+////////////////      Logo           ///////////
+//////////////////////////////////////////////*/
+
+/*/ ///////////////////////////////////////////////
+////////////////      Logo           ///////////
+//////////////////////////////////////////////*/
