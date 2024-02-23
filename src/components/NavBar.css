@@ -36,7 +36,7 @@
     //////////////////////////////////////////////*/
 
 .logo {
-  height: 9rem;
+  height: 7rem;
 }
 
 /*////////////////////////////////////////////////
@@ -59,7 +59,7 @@
   text-decoration: none;
   color: var(--secondary_color);
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 1.2em;
   padding: 0 10px;
   position: relative;
 }
@@ -90,8 +90,7 @@
 
 .links {
   display: flex;
-  margin: 5vh 0;
-  gap: 50px;
+  margin: 5vh 3vw;
 }
 
 .links div {
@@ -129,6 +128,7 @@
 
 .cv p {
   color: var(--primary_color);
+  margin-top: 0;
 }
 /*////////////////////////////////////////////////
     ////////////////      Media Query      ///////////

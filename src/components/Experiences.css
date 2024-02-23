@@ -1,0 +1,58 @@
+.steps-container {
+  position: relative;
+}
+
+.progress-line {
+  position: absolute;
+  height: 2px;
+  background: var(--secondary_color);
+  width: 0;
+  top: 50%;
+  left: 0;
+  z-index: -1;
+  transition: all 0.25s ease;
+}
+
+.steps-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.steps {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--secondary_color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  color: white;
+}
+
+.steps.active {
+  background-color: var(--primary_color);
+}
+
+.experiences {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 30vh;
+  width: 100%;
+}
+
+.experiences h1 {
+  color: var(--secondary_color);
+  font-family: var(--primary_font);
+  margin-bottom: 5vh;
+}
+
+.stepper {
+  min-width: 80%;
+  margin: 0 10vw;
+}

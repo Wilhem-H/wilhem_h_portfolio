@@ -9,11 +9,11 @@ import gitWhite from "../assets/gitWhite.svg";
 import laptopWhite from "../assets/laptopWhite.svg";
 import motivationWhite from "../assets/motivationWhite.svg";
 
-import "./Content.css";
+import "./Introduce.css";
 
 function Content() {
   return (
-    <div>
+    <div id="myPresentation">
       <section className="presentation">
         <div className="presentation1">
           <h1>Présentation</h1>

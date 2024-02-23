@@ -19,3 +19,7 @@ body {
 .purple {
   color: var(--secondary_color);
 }
+
+html {
+  scroll-behavior: smooth;
+}
