@@ -5,27 +5,56 @@
 .presentation {
   display: flex;
   justify-content: space-around;
-  margin-top: 4vh;
+  margin-top: 15vh;
 }
+
+/*/ ///////////////////////////////////////////////
+////////////////   Presentation 1     ///////////
+//////////////////////////////////////////////*/
 
 .presentation1 {
   flex: 1;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  color: var(--secondary_color);
+}
+
+.presentation1 h1 {
+  font-family: var(--primary_font);
 }
 
 .presentation1 p {
   width: 80%;
 }
 
-.presentation1 img {
-  width: 4%;
+.presentation1 div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10vw;
+  gap: 15px;
 }
+
+.presentation1 img {
+  width: 60%;
+  transition: transform 700ms ease-in-out;
+}
+
+.presentation1 img:hover {
+  cursor: pointer;
+  transform: scale(1.4) rotate(360deg);
+}
+
+/*/ ///////////////////////////////////////////////
+////////////////   Presentation 2     ///////////
+//////////////////////////////////////////////*/
 
 .presentation2 {
   flex: 1;
   display: flex;
-  gap: 8%;
+  gap: 20%;
 }
 
 .presentation2-spec {
@@ -36,6 +65,7 @@
 
 .presentation2 img:first-child {
   max-height: 55vh;
+  margin-left: 1vw;
 }
 
 .presentation2-spec div {
@@ -59,9 +89,6 @@
 .presentation2-spec p {
   margin: 2% 0 0 0;
 }
-/*/ ///////////////////////////////////////////////
-////////////////      Logo           ///////////
-//////////////////////////////////////////////*/
 
 /*////////////////////////////////////////////////
 ////////////////      Logo           ///////////
@@ -78,3 +105,11 @@
 /*/ ///////////////////////////////////////////////
 ////////////////      Logo           ///////////
 //////////////////////////////////////////////*/
+
+@media screen and (max-width: 1580px) {
+  .presentation2 {
+    flex: 1;
+    display: flex;
+    gap: 10%;
+  }
+}

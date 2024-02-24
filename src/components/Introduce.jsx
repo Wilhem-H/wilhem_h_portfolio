@@ -35,10 +35,18 @@ function Content() {
             rendu de chaque projet. Enjoy !
           </p>
           <div>
-            <img src={githubBlack} alt="" />
-            <img src={discordBlack} alt="" />
-            <img src={mailBlack} alt="" />
-            <img src={linkedinBlack} alt="" />
+            <a href=" https://github.com/Wilhem-H">
+              <img src={githubBlack} alt="my github account" />
+            </a>
+            <a href=" https://discordapp.com/users/882266818801201222.">
+              <img src={discordBlack} alt="my discord account" />
+            </a>
+            <a href=" mailto:wilhem.hafsa@outlook.fr" target="_blank">
+              <img src={mailBlack} alt="my mail" />
+            </a>
+            <a href=" https://www.linkedin.com/in/wilhem-hafsa/">
+              <img src={linkedinBlack} alt="my linkedin account" />
+            </a>
           </div>
         </div>
         <div className="presentation2">
