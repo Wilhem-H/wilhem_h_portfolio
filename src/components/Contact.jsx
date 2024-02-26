@@ -4,8 +4,8 @@ import "./Contact.css";
 
 export default function Contact() {
   const initialFormData = {
-    nom: "",
-    prenom: "",
+    lastName: "",
+    firstName: "",
     mail: "",
     message: "",
   };
@@ -31,44 +31,40 @@ export default function Contact() {
       <div className="contact_content">
         <div>
           <form onSubmit={handleSubmit}>
-            <label>
-              Nom:
-              <input
-                type="text"
-                name="nom"
-                value={formData.nom}
-                onChange={handleChange}
-              />
-            </label>
+            <label htmlFor="lastName">Nom:</label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              value={formData.lastName}
+              onChange={handleChange}
+            />
             <br />
-            <label>
-              Prénom:
-              <input
-                type="text"
-                name="prenom"
-                value={formData.prenom}
-                onChange={handleChange}
-              />
-            </label>
+            <label htmlFor="firstName">Prénom:</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              value={formData.firstName}
+              onChange={handleChange}
+            />
             <br />
-            <label>
-              Mail:
-              <input
-                type="email"
-                name="mail"
-                value={formData.mail}
-                onChange={handleChange}
-              />
-            </label>
+            <label htmlFor="mail">Mail:</label>
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              value={formData.mail}
+              onChange={handleChange}
+            />
             <br />
-            <label>
-              Message:
-              <textarea
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-              />
-            </label>
+            <label htmlFor="message">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              value={formData.message}
+              onChange={handleChange}
+            />
             <br />
             <button type="submit">Envoyer !</button>
           </form>

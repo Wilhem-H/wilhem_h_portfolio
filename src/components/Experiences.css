@@ -37,7 +37,7 @@
 }
 
 .experiences {
-  margin-top: 5vh;
+  margin-top: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,10 +49,53 @@
 .experiences h1 {
   color: var(--secondary_color);
   font-family: var(--primary_font);
-  margin-bottom: 5vh;
+  margin-bottom: 9vh;
 }
 
 .stepper {
   min-width: 80%;
   margin: 0 10vw;
+}
+
+.experiences_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4vh;
+}
+
+.experiences_content p {
+  min-height: 25vh;
+}
+
+.experiences_content div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  margin-top: 6vh;
+  margin-bottom: 10vh;
+  height: 2vh;
+}
+
+.experiences_content button {
+  border: none;
+  padding: 2% 4%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  transition: 0.35s;
+  color: var(--secondary_color);
+  font-weight: 600;
+  font-size: 0.8em;
+  margin-top: 2vh;
+}
+
+.experiences_content button:hover {
+  cursor: pointer;
+  background-color: var(--primary_color);
+  color: white;
 }

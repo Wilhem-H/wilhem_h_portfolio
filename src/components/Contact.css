@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 5vh;
 }
 
 .contact h1 {
@@ -14,6 +15,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  width: 95%;
+  padding-left: 5%;
 }
 
 .contact_content form {
@@ -21,7 +24,52 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 2% 4%;
   border: solid 2px var(--primary_color);
   min-height: 30vh;
+  color: var(--secondary_color);
+  font-weight: 600;
+  font-family: var(--primary_font);
+  width: 20vw;
+  height: 60vh;
+  padding: 5%;
+}
+
+.contact_content form textarea {
+  height: 30%;
+  width: 85%;
+  text-align: center;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.contact_content form input {
+  width: 85%;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 8%;
+}
+
+form label:nth-of-type(-n + 3) {
+  text-align: left;
+  width: 80%;
+}
+
+form label {
+  margin-bottom: 1vh;
+}
+
+form button {
+  border: none;
+  color: white;
+  background-color: var(--primary_color);
+  padding: 3% 5%;
+  border-radius: 5px;
+  font-family: var(--primary_font);
+  align-self: flex-end;
+  cursor: pointer;
+  transition: 0.25ms;
+}
+
+form button:hover {
+  transform: scale(1.1);
 }

@@ -20,9 +20,17 @@ function Footer() {
       <div className="footer-logo">
         <div>Liens : </div>
         <div>
-          <img src={githubSvg} />
-          <img src={linkedinSvg} />
-          <img src={mailSvg} />
+          <a href=" https://github.com/Wilhem-H" target="_blank">
+            <img src={githubSvg} alt="my github account" />
+          </a>
+
+          <a href=" https://www.linkedin.com/in/wilhem-hafsa/" target="_blank">
+            <img src={linkedinSvg} alt="my linkedin account" />
+          </a>
+
+          <a href=" mailto:wilhem.hafsa@outlook.fr" target="_blank">
+            <img src={mailSvg} alt="my mail" />
+          </a>
         </div>
       </div>
     </div>

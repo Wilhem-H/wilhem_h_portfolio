@@ -35,16 +35,22 @@ function Content() {
             rendu de chaque projet. Enjoy !
           </p>
           <div>
-            <a href=" https://github.com/Wilhem-H">
+            <a href=" https://github.com/Wilhem-H" target="_blank">
               <img src={githubBlack} alt="my github account" />
             </a>
-            <a href=" https://discordapp.com/users/882266818801201222.">
+            <a
+              href=" https://discordapp.com/users/882266818801201222."
+              target="_blank"
+            >
               <img src={discordBlack} alt="my discord account" />
             </a>
             <a href=" mailto:wilhem.hafsa@outlook.fr" target="_blank">
               <img src={mailBlack} alt="my mail" />
             </a>
-            <a href=" https://www.linkedin.com/in/wilhem-hafsa/">
+            <a
+              href=" https://www.linkedin.com/in/wilhem-hafsa/"
+              target="_blank"
+            >
               <img src={linkedinBlack} alt="my linkedin account" />
             </a>
           </div>
@@ -52,10 +58,10 @@ function Content() {
         <div className="presentation2">
           <img src={ellipse} alt="photo de Wilhem-H" />
           <div className="presentation2-spec">
-            <div>
+            <div className="presentation2_loc">
               <h3>Ma localisation:</h3>
               <p>
-                <img src={locWhite} alt="" />
+                <img src={locWhite} alt="my location" />
                 Région Auvergne Rhône Alpes
               </p>
             </div>

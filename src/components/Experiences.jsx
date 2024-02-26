@@ -4,7 +4,7 @@ import "./Experiences.css";
 
 const Example1 = ({ onPrev, onNext }) => {
   return (
-    <>
+    <div className="experiences_content">
       <h1> 2010 - Baccalauréat Scientifique </h1>
       <p>
         Juillet 2010 : Obtention de mon diplome du Baccaléauréat Scientifique
@@ -13,13 +13,13 @@ const Example1 = ({ onPrev, onNext }) => {
         <button onClick={onPrev}>Prev</button>
         <button onClick={onNext}>Next</button>
       </div>
-    </>
+    </div>
   );
 };
 
 const Example2 = ({ onPrev, onNext }) => {
   return (
-    <>
+    <div className="experiences_content">
       <h1>2011 - 7ème Bataillon de Chasseurs Alpins</h1>
       <p>
         Militaire du Rang <br />
@@ -37,13 +37,13 @@ const Example2 = ({ onPrev, onNext }) => {
         <button onClick={onPrev}>Prev</button>
         <button onClick={onNext}>Next</button>
       </div>
-    </>
+    </div>
   );
 };
 
 const Example3 = ({ onPrev, onNext }) => {
   return (
-    <>
+    <div className="experiences_content">
       <h1>2016 - Ecole Nationnale des Sous-Officiers d&apos;Active</h1>
       <p>
         Gestion d&apos;un groupe de 10 à 15 personnes en autonomie et en phase
@@ -53,13 +53,13 @@ const Example3 = ({ onPrev, onNext }) => {
         <button onClick={onPrev}>Prev</button>
         <button onClick={onNext}>Next</button>
       </div>
-    </>
+    </div>
   );
 };
 
 const Example4 = ({ onPrev, onNext }) => {
   return (
-    <>
+    <div className="experiences_content">
       <h1>2017 - Ecole Nationnale des Transmissions</h1>
       <p>
         apprentissage appronfondie de l&apos;utilisation et de la mise en oeuvre
@@ -69,13 +69,13 @@ const Example4 = ({ onPrev, onNext }) => {
         <button onClick={onPrev}>Prev</button>
         <button onClick={onNext}>Next</button>
       </div>
-    </>
+    </div>
   );
 };
 
 const Example5 = ({ onPrev, onNext }) => {
   return (
-    <>
+    <div className="experiences_content">
       <h1>2017 - 7ème Bataillon de Chasseurs Alpins</h1>
       <p>
         Sous Officier <br />
@@ -93,13 +93,13 @@ const Example5 = ({ onPrev, onNext }) => {
         <button onClick={onPrev}>Prev</button>
         <button onClick={onNext}>Next</button>
       </div>
-    </>
+    </div>
   );
 };
 
 const Example6 = ({ onPrev, onNext }) => {
   return (
-    <>
+    <div className="experiences_content">
       <h1>Formation python</h1>
       <p>
         découverte de la programmation et du langage python <br />
@@ -115,13 +115,13 @@ const Example6 = ({ onPrev, onNext }) => {
         <button onClick={onPrev}>Prev</button>
         <button onClick={onNext}>Next</button>
       </div>
-    </>
+    </div>
   );
 };
 
 const Example7 = ({ onPrev, onNext }) => {
   return (
-    <>
+    <div className="experiences_content">
       <h1>2021 - Avis Budget Group</h1>
       <p>
         Préparateur et agent de retour
@@ -142,13 +142,13 @@ const Example7 = ({ onPrev, onNext }) => {
         <button onClick={onPrev}>Prev</button>
         <button onClick={onNext}>Next</button>
       </div>
-    </>
+    </div>
   );
 };
 
 const Example8 = ({ onPrev, onNext }) => {
   return (
-    <>
+    <div className="experiences_content">
       <h1>2023 - Wild Code School</h1>
       <p>
         Apprentissage des basiques du développement web <br />
@@ -162,13 +162,13 @@ const Example8 = ({ onPrev, onNext }) => {
         <button onClick={onPrev}>Prev</button>
         <button onClick={onNext}>Next</button>
       </div>
-    </>
+    </div>
   );
 };
 
 const Example9 = ({ onPrev, onNext }) => {
   return (
-    <div>
+    <div className="experiences_content">
       <h1>2023 - Slamflow</h1>
       <p>
         Stagiaire

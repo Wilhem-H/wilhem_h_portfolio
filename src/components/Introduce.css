@@ -22,10 +22,12 @@
 
 .presentation1 h1 {
   font-family: var(--primary_font);
+  font-size: 1.8em;
 }
 
 .presentation1 p {
   width: 80%;
+  font-size: 1.1em;
 }
 
 .presentation1 div {
@@ -89,6 +91,10 @@
 .presentation2-spec p {
   margin: 2% 0 0 0;
 }
+
+/* .presentation2_loc p{
+  font-size: 0.7em;
+} */
 
 /*////////////////////////////////////////////////
 ////////////////      Logo           ///////////

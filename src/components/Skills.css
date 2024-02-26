@@ -11,6 +11,7 @@
 
 .skills h1 {
   margin-bottom: 5vh;
+  font-weight: 400;
 }
 
 .skills_content {
@@ -20,14 +21,39 @@
   margin-bottom: 5vh;
 }
 
+.skills_content div {
+  width: 25%;
+}
+
 .skills_backAndbdd {
   border-right: solid 2px black;
 }
 
 .skills_front {
-  background-color: var(--secondary_color);
+  background-image: url("../assets/skills_background.svg");
+  display: flex;
+  flex-direction: column;
+  padding-top: 4%;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.skills_front p {
+  line-height: 3;
 }
 
 .skills_plus {
   border-left: solid 2px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10vh;
+}
+
+.skills img {
+  height: 4vh;
+  margin-right: 1vw;
 }

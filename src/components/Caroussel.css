@@ -62,8 +62,8 @@
 
 .container {
   max-width: 124rem;
-  padding: 4rem 1rem;
-  margin: 5vh auto 0 auto;
+  /* padding: 4rem 1rem; */
+  margin: 19vh auto 15vh auto;
   background-color: var(--primary_color);
   min-height: 100%;
 }
@@ -72,8 +72,9 @@
   font-size: 2.5rem;
   text-align: center;
   color: white;
-  margin-bottom: 2vh;
+  margin-bottom: 10vh;
   font-family: var(--primary_font);
+  margin-top: -10vh;
 }
 
 .swiper_container {
@@ -197,4 +198,12 @@
     width: 28rem !important;
     height: 36rem !important;
   }
+}
+
+#container_svgTop {
+  margin-top: -32vh;
+}
+
+#container_svgBottom {
+  margin-bottom: -31vh;
 }
