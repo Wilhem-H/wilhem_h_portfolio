@@ -63,6 +63,8 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  min-width: 13vw;
+  margin-left: -3vw;
 }
 
 .presentation2 img:first-child {
@@ -79,37 +81,32 @@
   align-items: center;
   height: 10vh;
   font-size: 0.9em;
+  justify-content: flex-start;
 }
 
 .presentation2-spec h3 {
-  margin: 0;
+  /* margin: 0; */
   background-color: var(--secondary_color);
   padding: 2% 8%;
   border-radius: 0 0 5px 5px;
+  margin-bottom: 1.5vh;
+  margin-top: 0;
+}
+
+.presentation2-spec img {
+  margin-right: 0.5vw;
 }
 
 .presentation2-spec p {
   margin: 2% 0 0 0;
 }
 
-/* .presentation2_loc p{
-  font-size: 0.7em;
-} */
+.presentation2_loc p {
+  text-align: center;
+}
 
 /*////////////////////////////////////////////////
-////////////////      Logo           ///////////
-//////////////////////////////////////////////*/
-
-/*/ ///////////////////////////////////////////////
-////////////////      Logo           ///////////
-//////////////////////////////////////////////*/
-
-/*////////////////////////////////////////////////
-////////////////      Logo           ///////////
-//////////////////////////////////////////////*/
-
-/*/ ///////////////////////////////////////////////
-////////////////      Logo           ///////////
+////////////////      Media Queries   ///////////
 //////////////////////////////////////////////*/
 
 @media screen and (max-width: 1580px) {

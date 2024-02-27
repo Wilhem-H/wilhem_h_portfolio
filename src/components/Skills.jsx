@@ -21,40 +21,45 @@ export default function Skills() {
       <h1>Skills</h1>
       <section className="skills_content">
         <div className="skills_backAndbdd">
-          <div className="skills_back">
+          <div className="skills_back" id="skillsBack">
             <h3>Back-End</h3>
             <p>
-              <img src={iconNodejs} alt="" />. Node JS <br />{" "}
-              <img src={icon_express} alt="" />. Express JS
-              <br /> <img src={icon_ts} alt="" />. TypeScript
+              <img src={iconNodejs} alt="node js logo" />. Node JS <br />{" "}
+              <img src={icon_express} alt="express Js logo" />. Express JS
+              <br /> <img src={icon_ts} alt="typescript logo" />. TypeScript
             </p>
           </div>
-          <div className="skills_bdd">
+          <div className="skills_bdd" id="skillsBdd">
             <h3>Base de données</h3>
             <p>
-              <img src={icon_mysql} alt="" />. MYSQL <br />. SQL WORKBENCH
-              <br /> <img src={icon_bdd} alt="" />. SQLite
+              <p id="sqlSection">
+                <img src={icon_mysql} alt="mysql_logo" />. MYSQL <br />. SQL
+                WORKBENCH
+              </p>
+              <p id="sqlSection">
+                <img src={icon_bdd} alt="sqlite logo" />. SQLite
+              </p>
             </p>
           </div>
         </div>
         <div className="skills_front">
           <h3>Front-End</h3>
           <p>
-            <img src={icon_html} alt="" />. HTML 5 <br />
-            <img src={icon_css} alt="" />. CSS 3<br />
-            <img src={icon_js} alt="" />. JavaScript <br />
-            <img src={icon_ts} alt="" />. TypeScript <br />
-            <img src={icon_react} alt="" />. REACT JS
+            <img src={icon_html} alt="html logo" />. HTML 5 <br />
+            <img src={icon_css} alt="css logo" />. CSS 3<br />
+            <img src={icon_js} alt="js logo" />. JavaScript <br />
+            <img src={icon_ts} alt="typescript logo" />. TypeScript <br />
+            <img src={icon_react} alt="react logo" />. REACT JS
           </p>
         </div>
         <div className="skills_plus">
           <h3>Les +</h3>
           <p>
-            <img src={icon_git} alt="" />. GIT <br />{" "}
-            <img src={icon_github} alt="" />. GIT-HUB
-            <br /> <img src={icon_npm} alt="" />. NPM <br />{" "}
-            <img src={icon_gitlab} alt="" />. GITLAB <br />{" "}
-            <img src={icon_python} alt="" />. PYTHON
+            <img src={icon_git} alt="git logo" />. GIT <br />{" "}
+            <img src={icon_github} alt="github logo" />. GIT-HUB
+            <br /> <img src={icon_npm} alt="npm logo" />. NPM <br />{" "}
+            <img src={icon_gitlab} alt="gitlab logo" />. GITLAB <br />{" "}
+            <img src={icon_python} alt="python logo" />. PYTHON
           </p>
         </div>
       </section>

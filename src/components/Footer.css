@@ -46,3 +46,7 @@
   display: flex;
   gap: 25px;
 }
+
+.footer-image img {
+  height: 10vh;
+}

@@ -61,34 +61,34 @@ function Content() {
             <div className="presentation2_loc">
               <h3>Ma localisation:</h3>
               <p>
-                <img src={locWhite} alt="my location" />
+                <img src={locWhite} alt="location logo" />
                 Région Auvergne Rhône Alpes
               </p>
             </div>
             <div>
               <h3>Mon Age:</h3>
               <p>
-                <img src={calendarWhite} alt="" />
+                <img src={calendarWhite} alt="calendar logo" />
                 30 ans
               </p>
             </div>
             <div>
               <h3>Mes projets:</h3>
               <p>
-                <img src={gitWhite} alt="" />6 +
+                <img src={gitWhite} alt="git logo" />6 +
               </p>
             </div>
             <div>
               <h3>Mon Language:</h3>
               <p>
-                <img src={laptopWhite} alt="" />
+                <img src={laptopWhite} alt="computer logo" />
                 Javascript
               </p>
             </div>
             <div>
               <h3>Ma motivation:</h3>
               <p>
-                <img src={motivationWhite} alt="" />
+                <img src={motivationWhite} alt="strong logo" />
                 100%
               </p>
             </div>

@@ -2,19 +2,19 @@ import "./Footer.css";
 import githubSvg from "../assets/githubWhiteSvg.svg";
 import linkedinSvg from "../assets/linkedinWhiteSvg.svg";
 import mailSvg from "../assets/mailWhiteSvg.svg";
+import logoFooter from "../assets/logo_footer.png";
 
 function Footer() {
   return (
     <div className="footer">
       <div className="footer-image">
-        <img src="" />
-        <h2>My Logo here</h2>
+        <img src={logoFooter} alt="my personnal logo" />
       </div>
       <div className="footer-text">
         <div>
           <p>Hafsa Wilhem</p>
           <p>wilhem.hafsa@hotmail.fr</p>
-          <p>Wilhem-H - Git-hub</p>
+          <p>GitHub : Wilhem-H</p>
         </div>
       </div>
       <div className="footer-logo">

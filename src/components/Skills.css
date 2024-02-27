@@ -57,3 +57,20 @@
   height: 4vh;
   margin-right: 1vw;
 }
+
+#skillsBack {
+  width: 100%;
+}
+
+.skills_bdd {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+#sqlSection {
+  display: flex;
+}
+
+#skillsBdd {
+  width: 100%;
+}
