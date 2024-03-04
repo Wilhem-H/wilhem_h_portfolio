@@ -9,6 +9,29 @@ function Navbar() {
     setOpenMenu((value) => !value);
   };
 
+  const handleClick = async () => {
+    try {
+      const response = await fetch(
+        `${
+          import.meta.env.VITE_BACKEND_URL ?? "http://localhost:5000"
+        }/download-cv`
+      );
+
+      if (!response.ok) {
+        throw new Error(`Erreur HTTP: ${response.status}`);
+      }
+
+      const blob = await response.blob();
+      const url = URL.createObjectURL(blob);
+      window.open(url, "_blank");
+      URL.revokeObjectURL(url);
+    } catch (erreur) {
+      console.error(
+        `Une erreur s'est produite lors de la récupération du cv. ${erreur}`
+      );
+    }
+  };
+
   return (
     <div className="my_navbar">
       <div
@@ -144,7 +167,9 @@ function Navbar() {
         </div>
 
         <div className="cv">
-          <button type="button">CV</button>
+          <button type="button" onClick={handleClick}>
+            CV
+          </button>
           <p>Dowload it!</p>
         </div>
       </nav>

@@ -66,6 +66,8 @@
   margin: 19vh auto 15vh auto;
   background-color: var(--primary_color);
   min-height: 100%;
+  color: white;
+  text-align: center;
 }
 
 .heading {
@@ -90,8 +92,8 @@
 }
 
 .swiper-slide img {
-  width: 37rem;
-  height: 42rem;
+  width: auto;
+  height: 50vh;
   border-radius: 2rem;
   object-fit: cover;
 }

@@ -214,8 +214,8 @@ export default function Experiences() {
 }
 
 const commonPropTypes = {
-  onPrev: PropTypes.func.isRequired,
-  onNext: PropTypes.func.isRequired,
+  onPrev: PropTypes.func,
+  onNext: PropTypes.func,
 };
 
 Example1.propTypes = commonPropTypes;

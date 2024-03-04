@@ -32,18 +32,19 @@ function Caroussel() {
         centeredSlides={true}
         loop={true}
         slidesPerView={"auto"}
+        spaceBetween={150}
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
           depth: 100,
           modifier: 2.5,
         }}
-        pagination={{ el: ".swiper-pagination", clickable: true }}
-        navigation={{
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-          clickable: true,
-        }}
+        // pagination={{ el: ".swiper-pagination", clickable: true }}
+        // navigation={{
+        //   nextEl: ".swiper-button-next",
+        //   prevEl: ".swiper-button-prev",
+        //   clickable: true,
+        // }}
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >
@@ -59,7 +60,7 @@ function Caroussel() {
             </div>
           </SwiperSlide>
         ))}
-        <div className="slider-controler">
+        {/* <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
             <ion-icon name="arrow-back-outline"></ion-icon>
           </div>
@@ -67,7 +68,7 @@ function Caroussel() {
             <ion-icon name="arrow-forward-outline"></ion-icon>
           </div>
           <div className="swiper-pagination"></div>
-        </div>
+        </div> */}
       </Swiper>
       <svg
         xmlns="http://www.w3.org/2000/svg"

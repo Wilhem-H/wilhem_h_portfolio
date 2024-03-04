@@ -31,7 +31,7 @@ export default function Skills() {
           </div>
           <div className="skills_bdd" id="skillsBdd">
             <h3>Base de données</h3>
-            <p>
+            <div>
               <p id="sqlSection">
                 <img src={icon_mysql} alt="mysql_logo" />. MYSQL <br />. SQL
                 WORKBENCH
@@ -39,7 +39,7 @@ export default function Skills() {
               <p id="sqlSection">
                 <img src={icon_bdd} alt="sqlite logo" />. SQLite
               </p>
-            </p>
+            </div>
           </div>
         </div>
         <div className="skills_front">
