@@ -13,7 +13,7 @@ import "./Caroussel.css";
 
 function Caroussel() {
   return (
-    <div className="container" id="myProjects">
+    <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
@@ -25,42 +25,49 @@ function Caroussel() {
           d="M0,64L48,80C96,96,192,128,288,138.7C384,149,480,139,576,128C672,117,768,107,864,117.3C960,128,1056,160,1152,165.3C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
-      <h1 className="heading">Mes Projets</h1>
-      <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
-        centeredSlides={true}
-        loop={true}
-        slidesPerView={"auto"}
-        spaceBetween={150}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 2.5,
-        }}
-        // pagination={{ el: ".swiper-pagination", clickable: true }}
-        // navigation={{
-        //   nextEl: ".swiper-button-next",
-        //   prevEl: ".swiper-button-prev",
-        //   clickable: true,
-        // }}
-        modules={[EffectCoverflow, Pagination, Navigation]}
-        className="swiper_container"
-      >
-        {projects.map((project) => (
-          <SwiperSlide key={project.id}>
-            <div className="slide">
-              <img src={project.img} alt="slide_image" />
-              <h1>{project.name}</h1>
-              <div>
-                <p>{project.description}</p>
-                <p>{project.techStack}</p>
+      <div className="container" id="myProjects">
+        <h1 className="heading">Mes Projets</h1>
+        <Swiper
+          effect={"coverflow"}
+          grabCursor={true}
+          centeredSlides={true}
+          loop={true}
+          slidesPerView={"auto"}
+          spaceBetween={150}
+          coverflowEffect={{
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 2.5,
+          }}
+          // pagination={{ el: ".swiper-pagination", clickable: true }}
+          // navigation={{
+          //   nextEl: ".swiper-button-next",
+          //   prevEl: ".swiper-button-prev",
+          //   clickable: true,
+          // }}
+          modules={[EffectCoverflow, Pagination, Navigation]}
+          className="swiper_container"
+        >
+          {projects.map((project) => (
+            <SwiperSlide key={project.id}>
+              <div className="slide">
+                <img src={project.img} alt="slide_image" />
+                <a
+                  href="https://et-si.onrender.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h1>{project.name}</h1>
+                </a>
+                <div>
+                  <p>{project.description}</p>
+                  <p>{project.techStack}</p>
+                </div>
               </div>
-            </div>
-          </SwiperSlide>
-        ))}
-        {/* <div className="slider-controler">
+            </SwiperSlide>
+          ))}
+          {/* <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
             <ion-icon name="arrow-back-outline"></ion-icon>
           </div>
@@ -69,7 +76,8 @@ function Caroussel() {
           </div>
           <div className="swiper-pagination"></div>
         </div> */}
-      </Swiper>
+        </Swiper>
+      </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"

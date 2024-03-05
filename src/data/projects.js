@@ -15,77 +15,88 @@ export const projects = [
     id: 1,
     name: "Et Si...?",
     img: etSi,
-    description: "This is the description for Project One.",
-    techStack: "React, Node.js, Express, MongoDB",
+    description:
+      "Projet personnel d'histoires imaginaires courtes créé lors de mon apprentissage de TypeScript",
+    techStack: "React Js/ TypeScript / Durée : 15 jours",
   },
   {
     id: 2,
     name: "Externatic",
     img: externatic,
-    description: "This is the description for Project Two.",
-    techStack: "Angular, Django, PostgreSQL",
+    description:
+      "3ème et dernier projet en groupe durant mon cursus DWWM, en équipe de 4, réalisation d'un site de recrutement pour le partenaire Externatic",
+    techStack: "React Js / Node Js / Express / MySql / Durée : 2.5 mois",
   },
   {
     id: 3,
     name: "WildQuiz",
     img: wildQuiz,
-    description: "This is the description for Project Three.",
-    techStack: "Vue.js, Flask, SQLite",
+    description:
+      "Dernier Projet d'auto-évaluation de mon cursus DWWM pour faire un bilan des connaissances acquises durant le parcours",
+    techStack: "React Js / Node Js / Express / MySql / Durée : 2 jours",
   },
   {
     id: 4,
     name: "WildBoard",
     img: wildBoard,
-    description: "This is the description for Project Four.",
-    techStack: "Svelte, ASP.NET, MySQL",
+    description:
+      "Projet personnel de tableau de bord, qui centralise les informations de notre promo importantes utiles pour notre quotidien",
+    techStack: "React Js / Docker / Durée : 1 mois",
   },
   {
     id: 5,
     name: "Emmaus Connect",
     img: emmaus,
-    description: "This is the description for Project Five.",
-    techStack: "Ember.js, Ruby on Rails, Firebase",
+    description:
+      "Hackathon réalisé avec la Wild Code School et Emmaus Connect en équipe.",
+    techStack: "React Js / Node Js / Express / Durée : 48h",
   },
   {
     id: 6,
     name: "WildList",
     img: wildList,
-    description: "This is the description for Project One.",
-    techStack: "React, Node.js, Express, MongoDB",
+    description:
+      "Premier projet en équipe de mon cursus DWWM réalisé en équipe",
+    techStack: "Vanilla Js / HTML / CSS / durée : 1 mois",
   },
   {
     id: 7,
     name: "Hero Battle",
     img: heroBattle,
-    description: "This is the description for Project Two.",
-    techStack: "Angular, Django, PostgreSQL",
+    description:
+      "Projet personnel réalisé lors de mon apprentissage de React Js",
+    techStack: "React Js / Durée : 3h",
   },
   {
     id: 8,
     name: "Card Generator",
     img: cardGenerator,
-    description: "This is the description for Project Three.",
-    techStack: "Vue.js, Flask, SQLite",
+    description:
+      "Projet personnel réalisé pour développer mes compétences en CSS",
+    techStack: "React Js / Durée : 4h",
   },
   {
     id: 9,
     name: "Unit Converter",
     img: unitConverter,
-    description: "This is the description for Project Four.",
-    techStack: "Svelte, ASP.NET, MySQL",
+    description:
+      "Projet en duo réalisé pour développer nos compétences en testing et TDD",
+    techStack: "React Js / Jest / Cypress / Durée : 1j",
   },
   {
     id: 10,
     name: "Hero Generator",
     img: heroGenerator,
-    description: "This is the description for Project Five.",
-    techStack: "Ember.js, Ruby on Rails, Firebase",
+    description:
+      "Projet personnel réalisé pour tester l'intégration de Material Ui",
+    techStack: "React Js / MUI / Durée : 4h",
   },
   {
     id: 11,
     name: "Tindbeer",
     img: tindBeer,
-    description: "This is the description for Project Five.",
-    techStack: "Ember.js, Ruby on Rails, Firebase",
+    description:
+      "2ème projet en équipe réalisé à la Wild Code School pour tester nos connaissances en React, site de rencontre avec la bière idéale.",
+    techStack: "React Js / Durée : 1 mois",
   },
 ];

@@ -2,6 +2,10 @@
 //////////////     Presentation      ////////////
 //////////////////////////////////////////////*/
 
+#myPresentation {
+  margin-bottom: 30vh;
+}
+
 .presentation {
   display: flex;
   justify-content: space-around;
@@ -18,6 +22,7 @@
   flex-direction: column;
   align-items: center;
   color: var(--secondary_color);
+  font-size: 1.1em;
 }
 
 .presentation1 h1 {
@@ -65,7 +70,7 @@
   flex-direction: column;
   gap: 20px;
   min-width: 13vw;
-  margin-left: -3vw;
+  margin-left: 3vw;
 }
 
 .presentation2 img:first-child {
@@ -86,7 +91,6 @@
 }
 
 .presentation2-spec h3 {
-  /* margin: 0; */
   background-color: var(--secondary_color);
   padding: 2% 8%;
   border-radius: 0 0 5px 5px;
@@ -100,6 +104,9 @@
 
 .presentation2-spec p {
   margin: 2% 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .presentation2_loc p {
@@ -109,6 +116,16 @@
 /*////////////////////////////////////////////////
 ////////////////      Media Queries   ///////////
 //////////////////////////////////////////////*/
+
+@media screen and (min-width: 1920px) {
+  .presentation2-spec {
+    margin-left: -3vw;
+  }
+
+  #myPresentation {
+    margin-bottom: 0;
+  }
+}
 
 @media screen and (max-width: 1580px) {
   .presentation2 {

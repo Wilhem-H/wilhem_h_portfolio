@@ -73,3 +73,7 @@ form button {
 form button:hover {
   transform: scale(1.1);
 }
+
+.contact_content img {
+  height: 75vh;
+}
