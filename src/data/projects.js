@@ -18,6 +18,7 @@ export const projects = [
     description:
       "Projet personnel d'histoires imaginaires courtes créé lors de mon apprentissage de TypeScript",
     techStack: "React Js/ TypeScript / Durée : 15 jours",
+    link: "https://et-si.onrender.com/",
   },
   {
     id: 2,
@@ -26,6 +27,7 @@ export const projects = [
     description:
       "3ème et dernier projet en groupe durant mon cursus DWWM, en équipe de 4, réalisation d'un site de recrutement pour le partenaire Externatic",
     techStack: "React Js / Node Js / Express / MySql / Durée : 2.5 mois",
+    link: "https://externatic-front.valence.wilders.dev/",
   },
   {
     id: 3,
@@ -34,6 +36,7 @@ export const projects = [
     description:
       "Dernier Projet d'auto-évaluation de mon cursus DWWM pour faire un bilan des connaissances acquises durant le parcours",
     techStack: "React Js / Node Js / Express / MySql / Durée : 2 jours",
+    link: "https://wildquiz-frontend.onrender.com/",
   },
   {
     id: 4,
@@ -42,6 +45,7 @@ export const projects = [
     description:
       "Projet personnel de tableau de bord, qui centralise les informations de notre promo importantes utiles pour notre quotidien",
     techStack: "React Js / Docker / Durée : 1 mois",
+    link: "https://wildboard.onrender.com/",
   },
   {
     id: 5,
@@ -50,6 +54,7 @@ export const projects = [
     description:
       "Hackathon réalisé avec la Wild Code School et Emmaus Connect en équipe.",
     techStack: "React Js / Node Js / Express / Durée : 48h",
+    link: "https://github.com/Wilhem-H/hackathon-Emmaus-connect",
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ export const projects = [
     description:
       "Premier projet en équipe de mon cursus DWWM réalisé en équipe",
     techStack: "Vanilla Js / HTML / CSS / durée : 1 mois",
+    link: "https://wilhem-h.github.io/Wildlist/",
   },
   {
     id: 7,
@@ -66,6 +72,7 @@ export const projects = [
     description:
       "Projet personnel réalisé lors de mon apprentissage de React Js",
     techStack: "React Js / Durée : 3h",
+    link: "https://wilhem-h.github.io/hero-battle2/",
   },
   {
     id: 8,
@@ -74,6 +81,7 @@ export const projects = [
     description:
       "Projet personnel réalisé pour développer mes compétences en CSS",
     techStack: "React Js / Durée : 4h",
+    link: "https://github.com/Wilhem-H",
   },
   {
     id: 9,
@@ -82,6 +90,7 @@ export const projects = [
     description:
       "Projet en duo réalisé pour développer nos compétences en testing et TDD",
     techStack: "React Js / Jest / Cypress / Durée : 1j",
+    link: "https://wh-ac-unit-converter.onrender.com/",
   },
   {
     id: 10,
@@ -90,6 +99,7 @@ export const projects = [
     description:
       "Projet personnel réalisé pour tester l'intégration de Material Ui",
     techStack: "React Js / MUI / Durée : 4h",
+    link: "https://github.com/Wilhem-H",
   },
   {
     id: 11,
@@ -98,5 +108,6 @@ export const projects = [
     description:
       "2ème projet en équipe réalisé à la Wild Code School pour tester nos connaissances en React, site de rencontre avec la bière idéale.",
     techStack: "React Js / Durée : 1 mois",
+    link: "https://github.com/Wilhem-H",
   },
 ];

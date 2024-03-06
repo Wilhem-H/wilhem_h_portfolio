@@ -53,11 +53,7 @@ function Caroussel() {
             <SwiperSlide key={project.id}>
               <div className="slide">
                 <img src={project.img} alt="slide_image" />
-                <a
-                  href="https://et-si.onrender.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href={project.link} target="_blank" rel="noreferrer">
                   <h1>{project.name}</h1>
                 </a>
                 <div>

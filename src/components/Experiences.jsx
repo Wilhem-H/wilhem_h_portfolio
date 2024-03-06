@@ -7,7 +7,8 @@ const Example1 = ({ onPrev, onNext }) => {
     <div className="experiences_content">
       <h1> 2010 - Baccalauréat Scientifique </h1>
       <p>
-        Juillet 2010 : Obtention de mon diplome du Baccaléauréat Scientifique
+        En juillet 2010, j&apos;obtiens mon Baccalauréat Scientifique à
+        l&apos;âge de 18ans.
       </p>
       <div>
         <button onClick={onPrev}>Prev</button>
@@ -22,16 +23,18 @@ const Example2 = ({ onPrev, onNext }) => {
     <div className="experiences_content">
       <h1>2011 - 7ème Bataillon de Chasseurs Alpins</h1>
       <p>
-        Militaire du Rang <br />
-        Mai 2011 : Engagement au sein du 7ème Bataillon de chasseurs Alpins en
-        qualité de 1ère classe infanterie.
+        En mai 2011, je m&apos;engage dans la 27ème Brigade d&apos;infanterie de
+        montagne, au sein du 7ème Bataillon de Chasseurs Alpins en qualité de
+        militaire du rang, 1ère classe. Je deviens très vite opérateur radio et
+        passe divers stages de qualifications techniques pour apprendre à
+        utiliser les systèmes radios des armées. <br />
+        En 2013 je passe Caporal puis j&apos;effectue diverses missions en
+        Afrique.
         <br />
-        brevet alpinisme et de skieur militaire
-        <br />
-        spécialisation radio et système d&apos;information du combatant (haute
-        fréquence, basse fréquence, satellite, morse...) <br />
-        2013: passage au grade de Caporal chef d&apos;équipe montagne été
-        2015:passage au grade de caporal-chef permis poids lourds
+        En 2015, je suis promu au grade de Caporal-chef lors d&apos;une mission
+        en Afrique centrale.
+        <br /> À mon retour, je pars pour l&apos;école des Sous-officiers de
+        Saint-Maixent : l&apos;ENSOA.
       </p>
       <div>
         <button onClick={onPrev}>Prev</button>
@@ -46,8 +49,12 @@ const Example3 = ({ onPrev, onNext }) => {
     <div className="experiences_content">
       <h1>2016 - Ecole Nationnale des Sous-Officiers d&apos;Active</h1>
       <p>
-        Gestion d&apos;un groupe de 10 à 15 personnes en autonomie et en phase
-        de combat
+        Durant mon cursus de 5 mois à l&apos;ENSOA, j&apos;apprends les notions
+        essentielles pour devenir un bon chef de groupe. Topographie, Combat,
+        capacité physique, géopolitique ou encore anglais, l&apos;apprentissage
+        est complet et nous apprend à diriger des hommes et femmes de manière
+        efficace. Je termine mon cursus avec la note générale de 16 en juillet
+        2016.
       </p>
       <div>
         <button onClick={onPrev}>Prev</button>
@@ -62,8 +69,13 @@ const Example4 = ({ onPrev, onNext }) => {
     <div className="experiences_content">
       <h1>2017 - Ecole Nationnale des Transmissions</h1>
       <p>
-        apprentissage appronfondie de l&apos;utilisation et de la mise en oeuvre
-        de moyen radio et informatiques.
+        Dans ce cursus à l’ETRS, plus technique et réservé aux sous-officiers
+        SIC (Système d’Information du Combattant) j’apprends en détails les
+        notions liées à ma spécialité radio, morse, informatique, radiofréquence
+        ou satellite pendant 5 mois. Je découvre ici pour la première les cours
+        de réseaux et d’informatique que j’affectionne particulièrement, je
+        passe de 6/20 à mes tests d’entrées à 20/20 à mes tests finaux. C’est
+        alors le début de mon histoire dans l’informatique.
       </p>
       <div>
         <button onClick={onPrev}>Prev</button>
@@ -78,16 +90,17 @@ const Example5 = ({ onPrev, onNext }) => {
     <div className="experiences_content">
       <h1>2017 - 7ème Bataillon de Chasseurs Alpins</h1>
       <p>
-        Sous Officier <br />
-        gestion quotidienne d&apos;une équipe de 5 à 30 personnes (entrainement,
-        emploi du temps, formations, missions...)
-        <br />
-        déploiement sur le terrain en autonomie <br />
-        préparation opérationnelle <br />
-        mise en oeuvre de moyens radio et informatiques élaborés
-        <br />
-        montage et installation de centre de commandement <br />
-        sécurité informatique et prévention <br />
+        À l’issue de mon parcours de près d’un an pour devenir sous-officier, je
+        réintègre mon Bataillon avec le grade de Sergent pour effectuer de
+        nouvelles missions, cette fois-ci à la tête d’un groupe de plusieurs
+        soldats (5 à 15 personnes). Je suis capable de me déployer en missions
+        et sur le terrain afin d’effectuer les missions qui me sont confiées en
+        toute autonomie avec mes hommes. En 2019, je deviens Sous-officier
+        adjoint d’une section et gère alors 15 à 30 soldats au quotidien :
+        entraînement, emploi du temps, formations, missions, préparation
+        opérationnelle, gestion du matériel et bien d’autres. Je suis promu au
+        grade de sergent-chef en septembre 2021, peu de temps avant mon départ
+        de l’institution.
       </p>
       <div>
         <button onClick={onPrev}>Prev</button>
@@ -102,14 +115,12 @@ const Example6 = ({ onPrev, onNext }) => {
     <div className="experiences_content">
       <h1>Formation python</h1>
       <p>
-        découverte de la programmation et du langage python <br />
-        autoformation et formation udemy.
-        <br />
-        python <br />
-        git bash <br />
-        git <br />
-        powershell
-        <br />
+        Peu de temps avant mon départ de l’armée, j’ai découvert le
+        développement informatique que je ne connaissais pas, coup de foudre
+        immédiat, j’ai débuté l’apprentissage avec une excellente formation
+        Udemy de 3 mois sur le langage Python. Me voilà alors décidé à quitter
+        l’armée et à me réorienter vers un métier du développement. Notions
+        abordées : python / git / terminal / algorithmie / orienté objet…
       </p>
       <div>
         <button onClick={onPrev}>Prev</button>
@@ -124,19 +135,13 @@ const Example7 = ({ onPrev, onNext }) => {
     <div className="experiences_content">
       <h1>2021 - Avis Budget Group</h1>
       <p>
-        Préparateur et agent de retour
-        <br />
-        réception de vehicule de location
-        <br />
-        cloture des contrats
-        <br />
-        accompagnement client <br />
-        entretien des véhicules
-        <br />
-        livraisons
-        <br />
-        suivi du parc
-        <br />
+        Pour effectuer au mieux la mise en place de ma reconversion et pendant
+        que j’effectuais toutes les démarches, j’ai travaillé chez Avis Budget
+        Group à Alixan. Engagé dans le groupe en tant qu’agent de retour,
+        j’étais en charge des retours véhicules des clients, de l’établissement
+        d’états des lieux, de la clôture des contrats, de l’accompagnement
+        client, de l’entretien des véhicules, des livraisons de véhicules et de
+        la gestion et du suivi du parc.
       </p>
       <div>
         <button onClick={onPrev}>Prev</button>
@@ -151,12 +156,15 @@ const Example8 = ({ onPrev, onNext }) => {
     <div className="experiences_content">
       <h1>2023 - Wild Code School</h1>
       <p>
-        Apprentissage des basiques du développement web <br />
-        travail en équipe <br />
-        méthodologie Agile / Scrum
-        <br />
-        projets d&apos;équipe et individuel
-        <br />
+        Février 2023, j’ai donc débuté mon apprentissage du métier de
+        développeur à la Wild Code School sur Valence sous un format hybride
+        (télétravail / présentiel). Durant 8 mois, j’ai donc appris les bases
+        pour devenir développeur fullstack, notamment avec la pratique
+        d’exercices d’algo, de hackathons et de projets en équipe en suivant les
+        méthodologies Agile. Un parcours intensif qui apporte toutes les bases
+        pour mettre le pied à l’étrier. Notions abordées : HTML / CSS / JS / TS
+        / SQL – Express / React / Node / Prisma / Docker - SCRUM / Git / Git-hub
+        / Figma / Canva / slack / services google / discord / TDD
       </p>
       <div>
         <button onClick={onPrev}>Prev</button>
@@ -171,19 +179,12 @@ const Example9 = ({ onPrev, onNext }) => {
     <div className="experiences_content">
       <h1>2023 - Slamflow</h1>
       <p>
-        Stagiaire
-        <br />
-        retro ingeneering API JAVA
-        <br />
-        étude de besoins
-        <br />
-        création de documentation et fichier swagger
-        <br />
-        recherche de solutions alternatives <br />
-        élaboration de compte rendu de recherce <br />
-        création d&apos;APIs Node JS / TypeScript
-        <br />
-        création de docker et pipeline gitlab <br />
+        Stage de fin de cursus de 2 mois et demi durant lesquels j’ai énormément
+        appris. Retro-engineering d’API, création de documentations, recherches
+        approfondies de solutions ou encore création from scratch d’API Node JS/
+        Express, j’en ressors plus motivé que jamais à évoluer dans ce parcours.
+        Notions abordées : Java / Spring / Node Js / Express / Typescript /
+        SQLite – Swagger / Docker / Gitlab / Puppeteer / Postman
       </p>
       <div>
         <button onClick={onPrev}>Prev</button>
