@@ -67,6 +67,8 @@
 
 .experiences_content p {
   min-height: 25vh;
+  width: 65%;
+  font-size: 1.2em;
 }
 
 .experiences_content div {

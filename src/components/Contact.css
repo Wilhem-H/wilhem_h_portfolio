@@ -77,3 +77,13 @@ form button:hover {
 .contact_content img {
   height: 75vh;
 }
+
+@media screen and (max-width: 760px) {
+  .contact_content {
+    flex-direction: column;
+  }
+
+  .contact_content img {
+    height: 40vh;
+  }
+}

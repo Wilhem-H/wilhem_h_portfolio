@@ -113,7 +113,7 @@ const Example5 = ({ onPrev, onNext }) => {
 const Example6 = ({ onPrev, onNext }) => {
   return (
     <div className="experiences_content">
-      <h1>Formation python</h1>
+      <h1>2020 - Formation Udemy Python</h1>
       <p>
         Peu de temps avant mon départ de l’armée, j’ai découvert le
         développement informatique que je ne connaissais pas, coup de foudre

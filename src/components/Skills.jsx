@@ -33,8 +33,7 @@ export default function Skills() {
             <h3>Base de données</h3>
             <div>
               <p id="sqlSection">
-                <img src={icon_mysql} alt="mysql_logo" />. MYSQL <br />. SQL
-                WORKBENCH
+                <img src={icon_mysql} alt="mysql_logo" />. MYSQL
               </p>
               <p id="sqlSection">
                 <img src={icon_bdd} alt="sqlite logo" />. SQLite
