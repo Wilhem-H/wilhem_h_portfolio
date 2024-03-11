@@ -36,7 +36,8 @@
     //////////////////////////////////////////////*/
 
 .logo {
-  height: 7rem;
+  height: 4.5rem;
+  margin: 3vh 0 0 2vh;
 }
 
 /*////////////////////////////////////////////////
@@ -252,5 +253,33 @@
   .cv p {
     font-size: 0.7em;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .cv {
+    width: 9vh;
+    align-items: flex-end;
+  }
+
+  .cv button {
+    margin: 0;
+    border-radius: 0 0 0 15px;
+    height: 50px;
+    width: 50px;
+  }
+
+  .logo {
+    margin: 0;
+    height: 8vh;
+  }
+
+  .navbar_burger {
+    width: 8vh;
+  }
+
+  .navbar_burger svg {
+    width: 6vh;
+    margin-top: -2vh;
   }
 }

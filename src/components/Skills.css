@@ -78,3 +78,40 @@
 #skillsBdd div {
   width: 100%;
 }
+
+/* ------------------- Media Queries --------------------- */
+
+@media screen and (max-width: 760px) {
+  .skills_content {
+    flex-direction: column;
+  }
+
+  .skills_content div {
+    width: 100%;
+  }
+
+  #skillsBack,
+  #skillsBdd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #skillsBdd div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills_backAndbdd {
+    border-right: none;
+    border-bottom: solid 2px white;
+  }
+
+  .skills_plus {
+    border-left: none;
+    border-top: solid 2px white;
+  }
+}

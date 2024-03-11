@@ -79,7 +79,7 @@ export default function Contact() {
     <div className="contact" id="myContactDetails">
       <h1>Contact</h1>
       <div className="contact_content">
-        <div>
+        <div className="contact_content_form">
           <form onSubmit={handleSubmit}>
             <label htmlFor="lastName">Nom:</label>
             <input

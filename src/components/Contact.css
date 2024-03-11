@@ -81,9 +81,21 @@ form button:hover {
 @media screen and (max-width: 760px) {
   .contact_content {
     flex-direction: column;
+    padding: 0%;
   }
 
   .contact_content img {
     height: 40vh;
+  }
+
+  .contact_content form {
+    width: 75vw;
+  }
+
+  .contact_content_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 }

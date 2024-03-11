@@ -1,5 +1,5 @@
 import { useState } from "react";
-import WilhemLogo from "../assets/Wilhem_Logo.png";
+import WilhemLogo from "../assets/Wilhem_Logo2.png";
 import "./NavBar.css";
 
 function Navbar() {
