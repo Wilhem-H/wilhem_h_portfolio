@@ -24,41 +24,131 @@ export default function Skills() {
           <div className="skills_back" id="skillsBack">
             <h3>Back-End</h3>
             <p>
-              <img src={iconNodejs} alt="node js logo" />. Node JS <br />{" "}
-              <img src={icon_express} alt="express Js logo" />. Express JS
-              <br /> <img src={icon_ts} alt="typescript logo" />. TypeScript
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <img src={iconNodejs} alt="node js logo" />
+                    </td>
+                    <td>. Node JS</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src={icon_express} alt="express Js logo" />
+                    </td>
+                    <td>. Express JS</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src={icon_ts} alt="typescript logo" />
+                    </td>
+                    <td>. TypeScript</td>
+                  </tr>
+                </tbody>
+              </table>
             </p>
           </div>
           <div className="skills_bdd" id="skillsBdd">
             <h3>Base de données</h3>
-            <div>
-              <p id="sqlSection">
-                <img src={icon_mysql} alt="mysql_logo" />. MYSQL
-              </p>
-              <p id="sqlSection">
-                <img src={icon_bdd} alt="sqlite logo" />. SQLite
-              </p>
-            </div>
+            <p>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <img src={icon_mysql} alt="mysql_logo" />
+                    </td>
+                    <td>. MYSQL</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src={icon_bdd} alt="sqlite logo" />
+                    </td>
+                    <td>. SQLite</td>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
           </div>
         </div>
         <div className="skills_front">
           <h3>Front-End</h3>
           <p>
-            <img src={icon_html} alt="html logo" />. HTML 5 <br />
-            <img src={icon_css} alt="css logo" />. CSS 3<br />
-            <img src={icon_js} alt="js logo" />. JavaScript <br />
-            <img src={icon_ts} alt="typescript logo" />. TypeScript <br />
-            <img src={icon_react} alt="react logo" />. REACT JS
+            <table>
+              <thead>
+                <tr></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <img src={icon_html} alt="html logo" />
+                  </td>
+                  <td>. HTML 5</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src={icon_css} alt="css logo" />
+                  </td>
+                  <td>. CSS 3</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src={icon_js} alt="js logo" />
+                  </td>
+                  <td>. JavaScript</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src={icon_ts} alt="typescript logo" />
+                  </td>
+                  <td>. TypeScript</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src={icon_react} alt="react logo" />
+                  </td>
+                  <td>. REACT JS</td>
+                </tr>
+              </tbody>
+            </table>
           </p>
         </div>
         <div className="skills_plus">
           <h3>Les +</h3>
           <p>
-            <img src={icon_git} alt="git logo" />. GIT <br />{" "}
-            <img src={icon_github} alt="github logo" />. GIT-HUB
-            <br /> <img src={icon_npm} alt="npm logo" />. NPM <br />{" "}
-            <img src={icon_gitlab} alt="gitlab logo" />. GITLAB <br />{" "}
-            <img src={icon_python} alt="python logo" />. PYTHON
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <img src={icon_git} alt="git logo" />
+                  </td>
+                  <td>. GIT</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src={icon_github} alt="github logo" />
+                  </td>
+                  <td>. GIT-HUB</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src={icon_npm} alt="npm logo" />
+                  </td>
+                  <td>. NPM</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src={icon_gitlab} alt="gitlab logo" />
+                  </td>
+                  <td>. GITLAB</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src={icon_python} alt="python logo" />
+                  </td>
+                  <td>. PYTHON</td>
+                </tr>
+              </tbody>
+            </table>
           </p>
         </div>
       </section>

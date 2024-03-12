@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { toast } from "react-toastify";
 import WilhemLogo from "../assets/Wilhem_Logo2.png";
 import "./NavBar.css";
 
@@ -28,6 +29,19 @@ function Navbar() {
     } catch (erreur) {
       console.error(
         `Une erreur s'est produite lors de la récupération du cv. ${erreur}`
+      );
+      toast.error(
+        "Oups, il y eu un problème... 😧, contactez moi directement sur linkedin pour obtenir mon cv ",
+        {
+          position: "top-right",
+          autoClose: 4000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        }
       );
     }
   };

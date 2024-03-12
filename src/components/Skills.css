@@ -67,10 +67,6 @@
   margin-bottom: 5vh;
 }
 
-#sqlSection {
-  display: flex;
-}
-
 #skillsBdd {
   width: 100%;
 }
@@ -82,6 +78,14 @@
 /* ------------------- Media Queries --------------------- */
 
 @media screen and (max-width: 760px) {
+  .skills {
+    margin: 2vh 0;
+  }
+
+  .skills h1 {
+    margin-bottom: 0;
+  }
+
   .skills_content {
     flex-direction: column;
   }
@@ -90,12 +94,26 @@
     width: 100%;
   }
 
+  .skills_content p {
+    border-bottom: solid 2px white;
+    padding-bottom: 10%;
+    width: 60vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
   #skillsBack,
   #skillsBdd {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .skills_bdd {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   #skillsBdd div {
@@ -107,11 +125,19 @@
 
   .skills_backAndbdd {
     border-right: none;
-    border-bottom: solid 2px white;
   }
 
   .skills_plus {
     border-left: none;
-    border-top: solid 2px white;
+    padding-bottom: 0;
+  }
+
+  .skills h3 {
+    color: var(--secondary_color);
+    margin-bottom: 0;
+  }
+
+  .skills_front h3 {
+    color: white;
   }
 }

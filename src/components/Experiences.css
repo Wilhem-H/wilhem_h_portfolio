@@ -105,4 +105,60 @@
 /* --------------- Media Queries --------------- */
 
 @media screen and (max-width: 760px) {
+  .experiences {
+    margin-top: 20vh;
+  }
+
+  .experiences h1 {
+    margin-bottom: 1vh;
+  }
+
+  .stepper {
+    margin: 0 5vw;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .steps-container {
+    display: none;
+    flex-direction: column;
+    height: 60vh;
+    width: 30vw;
+  }
+
+  .steps-wrapper {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+  .experiences h1 {
+    text-align: center;
+  }
+
+  .experiences_content p {
+    width: 90%;
+    min-height: 40vh;
+    text-align: center;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+  }
+
+  .experiences_content h1 {
+    font-size: 1.3em;
+  }
+
+  .experiences_content div {
+    margin-top: 0;
+    margin-bottom: 4vh;
+  }
+
+  .experiences_content button {
+    margin-top: 0;
+    font-size: 1.1em;
+    height: 7vh;
+    width: 30vw;
+  }
 }
