@@ -55,6 +55,17 @@ export default function Contact() {
           progress: undefined,
           theme: "light",
         });
+      } else if (response.status == 422) {
+        toast.warn("Données incorrectes, rééssayez ", {
+          position: "top-right",
+          autoClose: 4000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
       }
     } catch (error) {
       console.error(`mon erreur : ${error}`);
