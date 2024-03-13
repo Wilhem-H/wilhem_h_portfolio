@@ -31,7 +31,7 @@ function Navbar() {
         `Une erreur s'est produite lors de la récupération du cv. ${erreur}`
       );
       toast.error(
-        "Oups, il y eu un problème... 😧, contactez moi directement sur linkedin pour obtenir mon cv ",
+        "Oups, il y a eu un problème... 😧, contactez moi directement sur linkedin pour obtenir mon cv ",
         {
           position: "top-right",
           autoClose: 4000,

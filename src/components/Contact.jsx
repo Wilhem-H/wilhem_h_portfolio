@@ -59,7 +59,7 @@ export default function Contact() {
     } catch (error) {
       console.error(`mon erreur : ${error}`);
       toast.error(
-        "Oups, il y eu un problème... 😧, contactez moi directement sur linkedin ",
+        "Oups, il y a eu un problème... 😧, contactez moi directement sur linkedin ",
         {
           position: "top-right",
           autoClose: 4000,

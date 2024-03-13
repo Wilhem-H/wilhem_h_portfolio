@@ -43,7 +43,7 @@ export const projects = [
     name: "WildBoard",
     img: wildBoard,
     description:
-      "Projet personnel de tableau de bord, qui centralise les informations de notre promo importantes utiles pour notre quotidien",
+      "Projet personnel de tableau de bord, dédié à la promo de Wilders de Valence et développé pour approfondir mes connaissances en Docker",
     techStack: "React Js / Docker / Durée : 1 mois",
     link: "https://wildboard.onrender.com/",
   },
@@ -106,7 +106,7 @@ export const projects = [
     name: "Emmaus Connect",
     img: emmaus,
     description:
-      "Hackathon réalisé avec la Wild Code School et Emmaus Connect en équipe.",
+      "Hackathon de 48h réalisé avec la Wild Code School et Emmaus Connect en équipe.",
     techStack: "React Js / Node Js / Express / Durée : 48h",
     link: "https://github.com/Wilhem-H/hackathon-Emmaus-connect",
   },
