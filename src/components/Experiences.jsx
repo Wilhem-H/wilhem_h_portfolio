@@ -8,7 +8,9 @@ const Example1 = ({ onPrev, onNext }) => {
       <h1> 2010 - Baccalauréat Scientifique </h1>
       <p>En juillet 2010, Obtention de mon Baccalauréat Scientifique.</p>
       <div>
-        <button onClick={onPrev}>Prev</button>
+        <button onClick={onPrev} disabled>
+          Prev
+        </button>
         <button onClick={onNext}>Next</button>
       </div>
     </div>
@@ -31,10 +33,10 @@ const Example2 = ({ onPrev, onNext }) => {
         je passe caporal puis caporal-chef, et j&apos;effectue diverses
         missions, en France et à l&apos;étranger, notamment en Afrique.
         <br />
-        J&apos;apprend le combat en montagne, le morse, le secourisme au combat,
-        la gestion d&apos;un stock de matériel et l&apos;utilisation et le
-        paramétrage des logiciels des armées, et leurs interconnexion avec des
-        systèmes radios.
+        J&apos;apprends le combat en montagne, le morse, le secourisme au
+        combat, la gestion d&apos;un stock de matériel et l&apos;utilisation et
+        le paramétrage des logiciels des armées, et leurs interconnexions avec
+        des systèmes radios.
         <br /> En 2016, je pars pour l&apos;école des Sous-officiers de
         Saint-Maixent : l&apos;ENSOA.
       </p>
@@ -52,7 +54,7 @@ const Example3 = ({ onPrev, onNext }) => {
       <h1>2016 - Ecole Nationnale des Sous-Officiers d&apos;Active</h1>
       <p>
         Cursus de 5 mois à l&apos;ENSOA. <br />
-        j&apos;y apprends les notions essentielles pour devenir un bon chef de
+        J&apos;y apprends les notions essentielles pour devenir un bon chef de
         groupe. Topographie, Combat, capacité physique, géopolitique ou encore
         anglais, l&apos;apprentissage est complet et intensif, et nous apprend à
         diriger des hommes et femmes de manière efficace.
@@ -74,8 +76,8 @@ const Example4 = ({ onPrev, onNext }) => {
         Cursus de 5 mois à l&apos;ETNC (Ecole des Transmissions, du Numérique et
         du Cyber). <br /> Plus technique, ce parcours de formation est réservé
         aux sous-officiers SIC (Système d&apos;Information du Combattant).{" "}
-        <br /> j&apos;y apprends en détails pendant 5 mois les notions liées à
-        ma spécialité radio: morse, informatique, radiofréquence ou satellite,
+        <br /> J&apos;y apprends en détails pendant 5 mois les notions liées à
+        ma spécialité radio : morse, informatique, radiofréquence ou satellite,
         paramétrage logiciel... Je découvre ici pour la première fois, les cours
         de réseaux, d&apos;informatique et de cybersécurité.
       </p>
@@ -97,13 +99,13 @@ const Example5 = ({ onPrev, onNext }) => {
         sous-officier, je réintègre mon Bataillon avec le grade de Sergent pour
         effectuer de nouvelles missions, cette fois-ci à la tête d&apos;un
         groupe de plusieurs soldats (5 à 15 personnes). Autonome pour me
-        déployer en missions et sur le terrain, je suis à même deffectuer, avec
-        mon équipe, toutes les tâches qui me sont confiées. En 2019, je deviens
-        Sous-officier adjoint d&apos;une section et gère alors 15 à 30 soldats
-        au quotidien : entraînement, emploi du temps, formations, missions,
-        préparation opérationnelle, gestion du matériel et bien d&apos;autres.
-        Je suis promu au grade de sergent-chef en septembre 2021, peu de temps
-        avant mon départ de l&apos;institution.
+        déployer en missions et sur le terrain, je suis à même d&apos;effectuer,
+        avec mon équipe, toutes les tâches qui me sont confiées. En 2019, je
+        deviens Sous-officier adjoint d&apos;une section et gère alors 15 à 30
+        soldats au quotidien : entraînement, emploi du temps, formations,
+        missions, préparation opérationnelle, gestion du matériel et bien
+        d&apos;autres. Je suis promu au grade de sergent-chef en septembre 2021,
+        peu de temps avant mon départ de l&apos;institution.
       </p>
       <div>
         <button onClick={onPrev}>Prev</button>
@@ -119,10 +121,10 @@ const Example6 = ({ onPrev, onNext }) => {
       <h1>2020 - Formation Udemy Python</h1>
       <p>
         Peu de temps avant mon départ de l&apos;armée, j&apos;e découvre le
-        développement informatique, coup de foudre immédiat, s&apos;entamme
-        alors un début de reconversion avec une formation Udemy de 3 mois sur le
-        langage Python. J&apos;y apprend les bases la programmation, de
-        l&apos;algorithmie, et de l&apos;orienté objet. <br />
+        développement informatique, coup de foudre immédiat, j&apos;entame alors
+        un début de reconversion avec une formation Udemy de 3 mois sur le
+        langage Python. J&apos;y apprends les bases la programmation, de
+        l&apos;algorithmie, et de l&apos;orienter objet. <br />
         Notions abordées : python / git / terminal / algorithmie / orienté
         objet…
       </p>
@@ -193,14 +195,16 @@ const Example9 = ({ onPrev, onNext }) => {
         documentations, recherches approfondies de solutions alternatives ou
         encore création from scratch d&apos;API Node JS/ Express/TypeScript...{" "}
         <br />
-        Ce stage à été la parfaite école du métier de développeur et j&apos;en
-        ressort motivé et déterminé. Notions abordées : Java / Spring / Node Js
+        Ce stage a été la parfaite école du métier de développeur et j&apos;en
+        ressors motivé et déterminé. Notions abordées : Java / Spring / Node Js
         / Express / Typescript / SQLite – Swagger / Docker / Gitlab / Puppeteer
         / Postman
       </p>
       <div>
         <button onClick={onPrev}>Prev</button>
-        <button onClick={onNext}>Next</button>
+        <button onClick={onNext} disabled>
+          Next
+        </button>
       </div>
     </div>
   );

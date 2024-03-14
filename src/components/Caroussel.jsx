@@ -52,7 +52,9 @@ function Caroussel() {
           {projects.map((project) => (
             <SwiperSlide key={project.id}>
               <div className="slide">
-                <img src={project.img} alt="slide_image" />
+                <a href={project.link} target="_blank" rel="noreferrer">
+                  <img src={project.img} alt="slide_image" />
+                </a>
                 <a href={project.link} target="_blank" rel="noreferrer">
                   <h1>{project.name}</h1>
                 </a>

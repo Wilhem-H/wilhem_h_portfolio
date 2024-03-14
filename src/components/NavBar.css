@@ -114,6 +114,7 @@
 
 .cv button:hover {
   cursor: pointer;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .cv button {
@@ -125,7 +126,13 @@
   background-color: var(--secondary_color);
   color: white;
   border-radius: 15px;
+  box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
+
+/* -*--------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------*------- */
 
 .cv p {
   color: var(--primary_color);

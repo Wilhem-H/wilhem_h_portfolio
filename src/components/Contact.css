@@ -32,6 +32,7 @@
   width: 20vw;
   height: 60vh;
   padding: 5%;
+  box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
 }
 
 .contact_content form textarea {
@@ -67,11 +68,12 @@ form button {
   font-family: var(--primary_font);
   align-self: flex-end;
   cursor: pointer;
-  transition: 0.25ms;
+  box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 form button:hover {
-  transform: scale(1.1);
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .contact_content img {
