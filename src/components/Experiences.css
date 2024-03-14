@@ -92,7 +92,7 @@
   transition: 0.35s;
   color: var(--secondary_color);
   font-weight: 600;
-  font-size: 0.8em;
+  font-size: 1em;
   margin-top: 2vh;
 }
 
@@ -144,6 +144,7 @@
     font-size: 1.1em;
     display: flex;
     align-items: center;
+    flex-direction: column;
   }
 
   .experiences_content h1 {

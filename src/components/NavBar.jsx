@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { toast } from "react-toastify";
+import Tooltip from "@mui/material/Tooltip";
 import WilhemLogo from "../assets/Wilhem_Logo2.png";
 import "./NavBar.css";
 
@@ -181,9 +182,14 @@ function Navbar() {
         </div>
 
         <div className="cv">
-          <button type="button" onClick={handleClick}>
-            CV
-          </button>
+          <Tooltip
+            title="Pensez à désactiver votre bloqueur de pub "
+            followCursor
+          >
+            <button type="button" onClick={handleClick}>
+              CV
+            </button>
+          </Tooltip>
           <p>Dowload it!</p>
         </div>
       </nav>
