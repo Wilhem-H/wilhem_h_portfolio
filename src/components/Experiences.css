@@ -69,8 +69,12 @@
   margin-top: 4vh;
 }
 
+.experiences_content h1 {
+  margin-bottom: 2vh;
+}
+
 .experiences_content p {
-  min-height: 25vh;
+  min-height: 35vh;
   width: 65%;
   font-size: 1.2em;
   color: var(--text_color1);
@@ -150,15 +154,17 @@ button[disabled]:hover {
 
   .experiences h1 {
     text-align: center;
+    margin-bottom: 0;
   }
 
   .experiences_content {
     margin-bottom: 3vh;
+    min-height: 70vh;
   }
 
   .experiences_content p {
     width: 90%;
-    min-height: 40vh;
+    min-height: 50vh;
     text-align: center;
     font-size: 1.1em;
     display: flex;
@@ -168,6 +174,7 @@ button[disabled]:hover {
 
   .experiences_content h1 {
     font-size: 1.3em;
+    min-height: 6vh;
   }
 
   .experiences_content div {
