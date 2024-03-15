@@ -224,7 +224,7 @@ export default function Experiences() {
   ];
   return (
     <div className="experiences" id="myExperiences">
-      <h1>Mes Expériences</h1>
+      <h1 id="experiences_main_title">Mes Expériences</h1>
       <Stepper list={list} />
     </div>
   );

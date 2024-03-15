@@ -7,7 +7,7 @@
 }
 
 .contact h1 {
-  color: var(--secondary_color);
+  color: var(--switch_red_to_green);
   font-family: var(--primary_font);
 }
 
@@ -26,13 +26,14 @@
   flex-direction: column;
   border: solid 2px var(--primary_color);
   min-height: 30vh;
-  color: var(--secondary_color);
+  color: var(--switch_red_to_green);
   font-weight: 600;
   font-family: var(--primary_font);
   width: 20vw;
   height: 60vh;
   padding: 5%;
   box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+  background-color: var(--form_background_color);
 }
 
 .contact_content form textarea {
@@ -41,6 +42,7 @@
   text-align: center;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: var(--form_input_color);
 }
 
 .contact_content form input {
@@ -48,6 +50,7 @@
   border: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   height: 8%;
+  background-color: var(--form_input_color);
 }
 
 form label:nth-of-type(-n + 3) {

@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: column;
   margin: 5vh 0;
-  background-color: var(--primary_color);
+  background-color: var(--primary_light_color2);
   color: white;
   font-family: var(--primary_font);
 }

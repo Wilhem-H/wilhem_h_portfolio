@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { ToastContainer } from "react-toastify";
+import useLocalStorage from "use-local-storage";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 
@@ -13,6 +14,9 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
+  const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const [isDark, setIsDark] = useLocalStorage("isDark", preference);
+
   useEffect(() => {
     const links = document.querySelectorAll(".navbar_link a");
 
@@ -44,8 +48,8 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <NavBar />
+    <div className="App" data-theme={isDark ? "dark" : "light"}>
+      <NavBar isDark={isDark} setIsDark={setIsDark} />
       <Introduce id="myPresentation" />
       <Caroussel id="myProjects" />
       <Experiences id="myExperiences" />

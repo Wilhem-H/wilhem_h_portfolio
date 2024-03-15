@@ -2,16 +2,43 @@
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap");
 
 :root {
+  --background_color: white;
   --primary_color: #4a919e;
   --secondary_color: #6d0d43;
   --primary_shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   --primary_font: "Walter Turncoat", cursive;
   --secondary_font: "IM Fell Great Primer", serif;
+
+  /* light Theme */
+  --primary_light_color: #4a919e;
+  --primary_light_color2: #4a919e;
+  --secondary_light_color: #6d0d43;
+  --form_background_color: white;
+  --form_input_color: white;
+  --text_color1: black;
+  --toggle-bg: #f0eb9d;
+  --toggle-fg: #ffd000;
+  --switch_red_to_green: #6d0d43;
 }
 
-/* * {
-  max-width: 1920px;
-} */
+/* dark Theme */
+[data-theme="dark"] {
+  --background_color: #020202;
+  --primary_light_color: #b0cdd3;
+  --primary_light_color2: #002430;
+  --secondary_light_color: #c194a6;
+  --form_background_color: #191d1e;
+  --form_input_color: #3f3f3f;
+  --text_color1: #eeeeee;
+  --toggle-bg: #283452;
+  --toggle-fg: #00a6ff;
+  --switch_red_to_green: #4a919e;
+}
+
+.App {
+  background-color: var(--background_color);
+  width: 100%;
+}
 
 body {
   margin: 0;
@@ -19,11 +46,11 @@ body {
 }
 
 .green {
-  color: var(--primary_color);
+  color: var(--primary_light_color);
 }
 
 .purple {
-  color: var(--secondary_color);
+  color: var(--secondary_light_color);
 }
 
 html {

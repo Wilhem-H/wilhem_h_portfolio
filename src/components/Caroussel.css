@@ -2,8 +2,16 @@
   margin-top: -33vh;
 }
 
+#container_svgTop path {
+  fill: var(--primary_light_color2);
+}
+
 #container_svgBottom {
   margin-bottom: -31vh;
+}
+
+#container_svgBottom path {
+  fill: var(--primary_light_color2);
 }
 
 /* --------------- Caroussel --------------- */
@@ -20,7 +28,7 @@
 .container {
   max-width: 124rem;
   margin: 0 auto -14vh auto;
-  background-color: var(--primary_color);
+  background-color: var(--primary_light_color2);
   min-height: 100%;
   color: white;
   text-align: center;

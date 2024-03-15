@@ -1,10 +1,12 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 import { toast } from "react-toastify";
 import Tooltip from "@mui/material/Tooltip";
 import WilhemLogo from "../assets/Wilhem_Logo2.png";
+import { DarkModeToggle } from "./DarkModeToggle";
 import "./NavBar.css";
 
-function Navbar() {
+function Navbar({ isDark, setIsDark }) {
   const [openMenu, setOpenMenu] = useState("false");
 
   const openMenuMobile = () => {
@@ -181,6 +183,11 @@ function Navbar() {
           </div>
         </div>
 
+        <DarkModeToggle
+          isChecked={isDark}
+          handleChange={() => setIsDark(!isDark)}
+        />
+
         <div className="cv">
           <Tooltip
             title="Pensez à désactiver votre bloqueur de pub "
@@ -198,3 +205,8 @@ function Navbar() {
 }
 
 export default Navbar;
+
+Navbar.propTypes = {
+  setIsDark: PropTypes.func,
+  isDark: PropTypes.bool,
+};
