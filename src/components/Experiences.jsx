@@ -1,27 +1,39 @@
 import PropTypes from "prop-types";
 import Stepper from "./Stepper";
+import { motion } from "framer-motion";
 import "./Experiences.css";
+
+const variants = {
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: { staggerChildren: 0.2, duration: 0.6 },
+  },
+  hidden: { x: -1000, opacity: 0 },
+};
 
 const Example1 = ({ onPrev, onNext }) => {
   return (
-    <div className="experiences_content">
+    <motion.div className="experiences_content" variants={variants}>
       <h1> 2010 - Baccalauréat Scientifique </h1>
-      <p>En juillet 2010, Obtention de mon Baccalauréat Scientifique.</p>
+      <motion.p variants={variants} initial="hidden" animate="visible">
+        En juillet 2010, Obtention de mon Baccalauréat Scientifique.
+      </motion.p>
       <div>
         <button onClick={onPrev} disabled>
           Prev
         </button>
         <button onClick={onNext}>Next</button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
 const Example2 = ({ onPrev, onNext }) => {
   return (
-    <div className="experiences_content">
+    <motion.div className="experiences_content" variants={variants}>
       <h1>2011 - 7ème Bataillon de Chasseurs Alpins</h1>
-      <p>
+      <motion.p variants={variants} initial="hidden" animate="visible">
         <strong>Militaire du rang - 5 ans</strong> <br />
         <br />
         En mai 2011, je m&apos;engage dans la 27ème Brigade d&apos;infanterie de
@@ -39,40 +51,40 @@ const Example2 = ({ onPrev, onNext }) => {
         des systèmes radios.
         <br /> En 2016, je pars pour l&apos;école des Sous-officiers de
         Saint-Maixent : l&apos;ENSOA.
-      </p>
+      </motion.p>
       <div>
         <button onClick={onPrev}>Prev</button>
         <button onClick={onNext}>Next</button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
 const Example3 = ({ onPrev, onNext }) => {
   return (
-    <div className="experiences_content">
+    <motion.div className="experiences_content" variants={variants}>
       <h1>2016 - Ecole Nationnale des Sous-Officiers d&apos;Active</h1>
-      <p>
+      <motion.p variants={variants} initial="hidden" animate="visible">
         Cursus de 5 mois à l&apos;ENSOA. <br />
         J&apos;y apprends les notions essentielles pour devenir un bon chef de
         groupe. Topographie, Combat, capacité physique, géopolitique ou encore
         anglais, l&apos;apprentissage est complet et intensif, et nous apprend à
         diriger des hommes et femmes de manière efficace.
         <br /> Je termine mon cursus d&apos;élève sous-officier en juillet 2016.
-      </p>
+      </motion.p>
       <div>
         <button onClick={onPrev}>Prev</button>
         <button onClick={onNext}>Next</button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
 const Example4 = ({ onPrev, onNext }) => {
   return (
-    <div className="experiences_content">
+    <motion.div className="experiences_content" variants={variants}>
       <h1>2017 - Ecole Nationnale des Transmissions</h1>
-      <p>
+      <motion.p variants={variants} initial="hidden" animate="visible">
         Cursus de 5 mois à l&apos;ETNC (Ecole des Transmissions, du Numérique et
         du Cyber). <br /> Plus technique, ce parcours de formation est réservé
         aux sous-officiers SIC (Système d&apos;Information du Combattant).{" "}
@@ -80,20 +92,20 @@ const Example4 = ({ onPrev, onNext }) => {
         ma spécialité radio : morse, informatique, radiofréquence ou satellite,
         paramétrage logiciel... Je découvre ici pour la première fois, les cours
         de réseaux, d&apos;informatique et de cybersécurité.
-      </p>
+      </motion.p>
       <div>
         <button onClick={onPrev}>Prev</button>
         <button onClick={onNext}>Next</button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
 const Example5 = ({ onPrev, onNext }) => {
   return (
-    <div className="experiences_content">
+    <motion.div className="experiences_content" variants={variants}>
       <h1>2017 - 7ème Bataillon de Chasseurs Alpins</h1>
-      <p>
+      <motion.p variants={variants} initial="hidden" animate="visible">
         <strong>Sous-officier - 6 ans</strong> <br />
         <br />À l&apos;issue de mon parcours de près d&apos;un an pour devenir
         sous-officier, je réintègre mon Bataillon avec le grade de Sergent pour
@@ -106,20 +118,20 @@ const Example5 = ({ onPrev, onNext }) => {
         missions, préparation opérationnelle, gestion du matériel et bien
         d&apos;autres. Je suis promu au grade de sergent-chef en septembre 2021,
         peu de temps avant mon départ de l&apos;institution.
-      </p>
+      </motion.p>
       <div>
         <button onClick={onPrev}>Prev</button>
         <button onClick={onNext}>Next</button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
 const Example6 = ({ onPrev, onNext }) => {
   return (
-    <div className="experiences_content">
+    <motion.div className="experiences_content" variants={variants}>
       <h1>2020 - Formation Udemy Python</h1>
-      <p>
+      <motion.p variants={variants} initial="hidden" animate="visible">
         Peu de temps avant mon départ de l&apos;armée, j&apos;e découvre le
         développement informatique, coup de foudre immédiat, j&apos;entame alors
         un début de reconversion avec une formation Udemy de 3 mois sur le
@@ -127,20 +139,20 @@ const Example6 = ({ onPrev, onNext }) => {
         l&apos;algorithmie, et de l&apos;orienter objet. <br />
         Notions abordées : python / git / terminal / algorithmie / orienté
         objet…
-      </p>
+      </motion.p>
       <div>
         <button onClick={onPrev}>Prev</button>
         <button onClick={onNext}>Next</button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
 const Example7 = ({ onPrev, onNext }) => {
   return (
-    <div className="experiences_content">
+    <motion.div className="experiences_content" variants={variants}>
       <h1>2021 - Avis Budget Group</h1>
-      <p>
+      <motion.p variants={variants} initial="hidden" animate="visible">
         <strong>Agent de retour et préparateur - 1 an.</strong>
         <br />
         <br />
@@ -148,20 +160,20 @@ const Example7 = ({ onPrev, onNext }) => {
         d&apos;états des lieux, de la clôture des contrats, de
         l&apos;accompagnement client, de l&apos;entretien des véhicules, des
         livraisons de véhicules et de la gestion et du suivi du parc.
-      </p>
+      </motion.p>
       <div>
         <button onClick={onPrev}>Prev</button>
         <button onClick={onNext}>Next</button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
 const Example8 = ({ onPrev, onNext }) => {
   return (
-    <div className="experiences_content">
+    <motion.div className="experiences_content" variants={variants}>
       <h1>2023 - Wild Code School</h1>
-      <p>
+      <motion.p variants={variants} initial="hidden" animate="visible">
         Début Février 2023 à fin Décembre 2023. <br />
         Apprentissage du métier de développeur à la Wild Code School sur Valence
         sous un format hybride (télétravail / présentiel). Durant 8 mois,
@@ -173,20 +185,20 @@ const Example8 = ({ onPrev, onNext }) => {
         <br /> Notions abordées : HTML / CSS / JS / TS / SQL – Express / React /
         Node / Prisma / Docker - SCRUM / Git / Git-hub / Figma / Canva / slack /
         services google / discord / TDD
-      </p>
+      </motion.p>
       <div>
         <button onClick={onPrev}>Prev</button>
         <button onClick={onNext}>Next</button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
 const Example9 = ({ onPrev, onNext }) => {
   return (
-    <div className="experiences_content">
+    <motion.div className="experiences_content" variants={variants}>
       <h1>2023 - Slamflow</h1>
-      <p>
+      <motion.p variants={variants} initial="hidden" animate="visible">
         <strong>Stagiaire Développeur Back-end- 2.5 mois</strong>
         <br />
         <br />
@@ -199,14 +211,14 @@ const Example9 = ({ onPrev, onNext }) => {
         ressors motivé et déterminé. Notions abordées : Java / Spring / Node Js
         / Express / Typescript / SQLite – Swagger / Docker / Gitlab / Puppeteer
         / Postman
-      </p>
+      </motion.p>
       <div>
         <button onClick={onPrev}>Prev</button>
         <button onClick={onNext} disabled>
           Next
         </button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -2,6 +2,8 @@ import { useState } from "react";
 import PropTypes from "prop-types";
 import { toast } from "react-toastify";
 import Tooltip from "@mui/material/Tooltip";
+import { motion } from "framer-motion";
+
 import WilhemLogo from "../assets/Wilhem_Logo2.png";
 import { DarkModeToggle } from "./DarkModeToggle";
 import "./NavBar.css";
@@ -84,7 +86,14 @@ function Navbar({ isDark, setIsDark }) {
           </svg>
         </div>
 
-        <img className="logo" src={WilhemLogo} alt="my logo" />
+        <motion.img
+          className="logo"
+          src={WilhemLogo}
+          alt="my logo"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+        />
 
         <div className={openMenu ? "navbar" : "navbar open"}>
           <div className="links">
@@ -127,9 +136,14 @@ function Navbar({ isDark, setIsDark }) {
                 role="button"
                 tabIndex={0}
               >
-                <a href="#myPresentation" className="purple">
+                <motion.a
+                  href="#myPresentation"
+                  className="purple"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.95 }}
+                >
                   Présentation
-                </a>
+                </motion.a>
               </div>
 
               <div
@@ -143,9 +157,14 @@ function Navbar({ isDark, setIsDark }) {
                 role="button"
                 tabIndex={0}
               >
-                <a href="#myProjects" className="green">
+                <motion.a
+                  href="#myProjects"
+                  className="green"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.95 }}
+                >
                   Projets
-                </a>
+                </motion.a>
               </div>
 
               <div
@@ -159,9 +178,14 @@ function Navbar({ isDark, setIsDark }) {
                 role="button"
                 tabIndex={0}
               >
-                <a href="#myExperiences" className="purple">
+                <motion.a
+                  href="#myExperiences"
+                  className="purple"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.95 }}
+                >
                   Expériences
-                </a>
+                </motion.a>
               </div>
 
               <div
@@ -175,9 +199,14 @@ function Navbar({ isDark, setIsDark }) {
                 role="button"
                 tabIndex={0}
               >
-                <a href="#myContactDetails" className="green">
+                <motion.a
+                  href="#myContactDetails"
+                  className="green"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.95 }}
+                >
                   Contact
-                </a>
+                </motion.a>
               </div>
             </div>
           </div>
@@ -193,9 +222,14 @@ function Navbar({ isDark, setIsDark }) {
             title="Pensez à désactiver votre bloqueur de pub "
             followCursor
           >
-            <button type="button" onClick={handleClick}>
+            <motion.button
+              type="button"
+              onClick={handleClick}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+            >
               CV
-            </button>
+            </motion.button>
           </Tooltip>
           <p>Dowload it!</p>
         </div>

@@ -41,6 +41,10 @@
   width: auto;
 }
 
+.footer-logo img:hover {
+  scale: 1.2;
+}
+
 .footer-logo div:nth-child(2) {
   display: flex;
   gap: 25px;
