@@ -142,7 +142,7 @@
     ////////////////      Media Query      ///////////
     ////////////////////////////////////////////////*/
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1050px) {
   .navbar_burger {
     display: flex;
     align-items: center;

@@ -138,6 +138,11 @@
     margin-bottom: 0;
   }
 }
+@media screen and (max-width: 1700px) {
+  .presentation2-spec {
+    margin-left: 0;
+  }
+}
 
 @media screen and (max-width: 1580px) {
   .presentation2 {
@@ -147,7 +152,13 @@
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1200px) {
+  .presentation2 img:first-child {
+    max-height: 40vh;
+  }
+}
+
+@media screen and (max-width: 1050px) {
   .presentation {
     flex-direction: column;
     margin-top: 1vh;
