@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { motion } from "framer-motion";
 
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -53,7 +54,12 @@ function Caroussel() {
             <SwiperSlide key={project.id}>
               <div className="slide">
                 <a href={project.link} target="_blank" rel="noreferrer">
-                  <img src={project.img} alt="slide_image" />
+                  <motion.img
+                    src={project.img}
+                    alt="slide_image"
+                    transition={{ duration: 0.3 }}
+                    whileHover={{ scale: 1.1 }}
+                  />
                 </a>
                 <a href={project.link} target="_blank" rel="noreferrer">
                   <h1>{project.name}</h1>

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { toast } from "react-toastify";
+import { motion } from "framer-motion";
 import contactImg from "../assets/contact.png";
 import "./Contact.css";
 
@@ -138,7 +139,12 @@ export default function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={contactImg} />
+            <motion.img
+              src={contactImg}
+              initial={{ opacity: 0, scale: 0.2 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8 }}
+            />
           </a>
         </div>
       </div>
